@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Jumbotron from './components/Jumbotron'
 import SoundSection from './components/SoundSection'
 import DisplaySection from './components/DisplaySection'
+import WebgiViewer from './components/WebgiViewer'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Jumbotron />
       <SoundSection />
       <DisplaySection />
+      <WebgiViewer />
     </div>
   )
 }
